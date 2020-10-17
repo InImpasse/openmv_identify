@@ -20,7 +20,7 @@
 6、比赛准备过程中，也有尝试过用OPENCV官方库中的haar算子，进行人鼻子和嘴巴的追踪，以判断是否佩戴口罩，但在转制xml文件至cascade文件时报错，后判断是xml文件的问题。（OPENMV官方调用的[haarcascades_cuda](https://github.com/opencv/opencv/tree/master/data/haarcascades_cuda)库，该库内的文件可转制成功。但[haarcascades](https://github.com/opencv/opencv/tree/master/data/haarcascades)库转制失败，cuda库中不包括鼻子和嘴巴的文件。）<br>
 7、因为是第一次接触OPENMV，所以文件中较多方案的代码是重复的，一方面是为了方便修改，另外也是由于时间有限。欢迎大家对该方案进行修改，有什么问题可在issues中提出。<br>
 
-我的微信公众号：【万能的小江江】
+#### 我的微信公众号：【万能的小江江】
 
 
 
